@@ -1,0 +1,6 @@
+com\example\accessingdatarest\Person.class
+com\example\accessingdatarest\PersonRepository.class
+com\example\accessingdatarest\AccessingDataRestApplication.class
+com\example\accessingdatarest\ConfirmationToken.class
+com\example\accessingdatarest\EmailSenderService.class
+com\example\accessingdatarest\UserAccountController.class
