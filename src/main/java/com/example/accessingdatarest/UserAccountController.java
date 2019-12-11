@@ -20,11 +20,11 @@ public class UserAccountController {
 		SimpleMailMessage mailMessage = new SimpleMailMessage();
 		mailMessage.setTo(user.getEmail());
 		mailMessage.setSubject("Complete Registration!");
-		mailMessage.setText("Hi"+user.getFirstName()+"To confirm your account, please click here : "
+		mailMessage.setText("Hi"+" "+user.getFirstName()+  "\n \n To confirm your account, please click here : "
 		+"http://localhost:8080/confirm-account?token="+confirmationToken.getConfirmationToken());
 		emailSenderService.sendEmail(mailMessage);
 		
-		return user ;
+		return user ; 
 	}
 
 }
